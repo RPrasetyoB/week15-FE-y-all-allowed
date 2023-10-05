@@ -10,8 +10,8 @@ interface EditCategory {
 
 
 const EditCategory: React.FC = () => {
-  // const ApiUrl = 'https://week-15-rprasetyob-production.up.railway.app/'
-  const ApiUrl = 'http://localhost:4000/'
+  const ApiUrl = 'https://week-15-rprasetyob-production.up.railway.app/'
+  // const ApiUrl = 'http://localhost:4000/'
   const navigate = useNavigate();
   const { id } = useParams();
   const Url1 = ApiUrl + `v1/tasks/${id}`;
